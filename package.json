@@ -7,8 +7,7 @@
     "start": "nodemon server.js",
     "start-attacker": "node attacker-server.js"
   },
-  "keywords": [],
-  "author": "Andrea Chiarelli",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
