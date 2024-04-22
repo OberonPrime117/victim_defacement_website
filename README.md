@@ -1,13 +1,6 @@
-This repository contains a sample web application with Cross-Site Scripting (XSS) vulnerabilities and its attacker website.
+# payload
 
-The application is used to explain how XSS attacks work and how to fix those vulnerabilities in the article [Defend Your Web Apps from Cross-Site Scripting (XSS)](https://auth0.com/blog/cross-site-scripting-xss/)
-
----
-### Technology
-
-This project uses the following technologies:
-
--  [Node.js](https://nodejs.org/)
+`<<script><sscript src="http://localhost:8000/script.js"></script>`
 
 ### Running the Application
 
@@ -40,3 +33,4 @@ To run this project, follow these steps:
 
 
 Please, read [Defend Your Web Apps from Cross-Site Scripting (XSS)](https://auth0.com/blog/cross-site-scripting-xss/) to learn more about XSS attacks and how to prevent them.
+
