@@ -37,40 +37,10 @@
       }
     </style>
 
-    <script>
-      function search() {
-        const searchResult = document.getElementById("search-result");
-        const searchTerm = document.getElementById("search-term");
-        const keyword = document.getElementById("keyword");
-
-        const movieData = document.getElementById("movie-data");
-        const comments = document.getElementById("comments");
-
-        movieData.style.visibility = "hidden";
-        comments.style.visibility = "hidden";
-
-        searchResult.style.display = "block";
-
-        searchTerm.innerHTML = keyword.value;
-
-        //fetching results related to the keyword value from the server
-
-        return false;
-      }
-    </script>
   </head>
   <body>
     <section>
       <h1 style="margin-top:5px">The Vulnerable Movie Center</h1>
-      <hr class="thin">
-      <form id="search-form" onsubmit="return search()">
-        <input id="keyword" type="text" class="thin" placeholder="Search a movie"><button type="submit" class="thin">Go</button></form>
-      <hr>
-    </section>
-
-    <section id="search-result">
-      You searched for <span id="search-term"></span>
-      <p>Waiting for server's response...</p>
     </section>
 
     <section id="movie-data">
