@@ -1,6 +1,6 @@
 # payload
 
-`<<script><sscript src="http://localhost:8000/script.js"></script>`
+`<script src="http://localhost:8000/script.js"></script>`
 
 ### Running the Application
 
